@@ -1,9 +1,15 @@
 Package: mipaquete
-Title: What the Package Does (one line, title case)
+Title: paquete para aprender a hacer paquetes
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Andrea", "Fernandez Conde", email = "animalsalvaje@gmail.com", role = c("aut", "cre"))
+Description: Toma funciones de algunos tutoriales para ejemplificar el hacer un paquete.
 Depends: R (>= 3.4.3)
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1
+Suggests: testthat,
+    knitr,
+    rmarkdown
+Imports: dplyr
+VignetteBuilder: knitr
